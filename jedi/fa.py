@@ -23,7 +23,6 @@ def dirloop( pathd ):
 		else:
 			temp += '/'
 			dirloop(temp)
-	return ''
 
 
 path = sys.argv[1]
